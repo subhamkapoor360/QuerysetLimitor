@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'QuerysetLimitor',
   packages = ['QuerysetLimitor'], # this must be the same as the name above
-  version = '1.2',
+  version = '1.3',
   description = 'A queryset wrapper to get constant no of rows in memory ',
   author = 'Subham Kapoor',
   author_email = 'subhamkapoor360@gmail.com',
