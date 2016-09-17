@@ -2,7 +2,7 @@ from django.conf import settings
 
 MAX_OBJ_NUM = getattr(settings, "MAX_OBJ_NUM",100000)
 
-class QueysetLimitor(object):
+class QuerysetLimitor(object):
 
     def __init__(self,queryset,max_obj_num=MAX_OBJ_NUM):
         self._base_queryset = queryset
