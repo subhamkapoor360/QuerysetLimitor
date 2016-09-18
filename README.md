@@ -19,8 +19,8 @@ NOTES:
 
 MAX_OBJ_NUM defaults to 100000 if not passed
 
-MA_OBJ_NUM can be set from Project.settings file
+MAX_OBJ_NUM can be set from Project.settings file
 
-By Initailizing the MA_OBJ_NUM variable in settings file.
+By Initailizing the MAX_OBJ_NUM variable in settings file.
 
 
