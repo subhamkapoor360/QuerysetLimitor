@@ -5,6 +5,7 @@ MAX_OBJ_NUM = getattr(settings, "MAX_OBJ_NUM",100000)
 class QuerysetLimitor(object):
 
     def __init__(self,queryset,max_obj_num=MAX_OBJ_NUM):
+        # Max obj num can be overriden.
         self._base_queryset = queryset
         self._generator = self._setup()
         self.max_obj_num = max_obj_num
